@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="e9812127-ef29-4de0-8bda-51021b8f360e" name="we" url="http://localhost">
+        <fileTransfer mountedRoot="$PROJECT_DIR$" accessType="MOUNT" port="0" />
+      </webServer>
+      <webServer id="fc21b1a6-5811-4912-91a0-d14ff3deed84" name="we1" url="http://we.cleanman187.de">
+        <fileTransfer accessType="SFTP" host="access940078422.webspace-data.io" port="22" sshConfigId="447b8387-70d7-4778-9e3e-7170b771c96d" sshConfig="u1837693798@access940078422.webspace-data.io:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
